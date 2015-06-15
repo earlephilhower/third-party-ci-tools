@@ -263,6 +263,12 @@ third_party_group =[
     u"avatars": []
   },
   {
+    u"_account_id": 16595,
+    u"name": u"HGST Solutions CI",
+    u"username": u"hgst-solutions-ci",
+    u"avatars": []
+  },
+  {
     u"_account_id": 11811,
     u"name": u"HP Storage CI",
     u"username": u"hp-cinder-ci",
