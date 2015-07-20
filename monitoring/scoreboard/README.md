@@ -14,7 +14,8 @@ Requires:
 
 Setup the config files.. alter the path in config.py to match the location
 of ci-scoreboard.conf. And update the ci-scoreboard.conf to have the right
-values for your gerrit account, keyfile, and mongodb server.
+values for your gerrit account, keyfile, and mongodb server.  Once edited,
+copy the file to /etc/ci-scoreboard/ci-scoreboard.conf.
 
 To run the server first init things with:
 
@@ -26,6 +27,7 @@ Then source the virtual environment:
 
 And run the app with:
 
-  `./scoreboard_ui.py runserver`
-  `./scoreboard_gerrit_listener.py`
+  `./scoreboard_ui.py runserver &`
+
+  `./scoreboard_gerrit_listener.py &`
 
